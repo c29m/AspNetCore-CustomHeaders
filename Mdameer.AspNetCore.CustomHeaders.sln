@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{50CC78F0-A0B6-4300-9745-FB3A21BB8B8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mdameer.AspNetCore.CustomHeaders", "src\Mdameer.AspNetCore.CustomHeaders\Mdameer.AspNetCore.CustomHeaders.csproj", "{9B6E4584-60CE-48BA-A092-C8C3D735E3C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{5CB886DF-0C94-4C54-9B3A-CD32F9D71687}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mdameer.AspNetCore.CustomHeaders.Web", "sample\Mdameer.AspNetCore.CustomHeaders.Web\Mdameer.AspNetCore.CustomHeaders.Web.csproj", "{7063C3F1-8F0E-42C4-98B4-CA235465D645}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C3E7CB97-B636-4919-BFF9-715044AEF0BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mdameer.AspNetCore.CustomHeaders.Tests", "test\Mdameer.AspNetCore.CustomHeaders.Tests\Mdameer.AspNetCore.CustomHeaders.Tests.csproj", "{AEC1B4B0-6797-4A46-9E9D-5440A9C58F41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B6E4584-60CE-48BA-A092-C8C3D735E3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6E4584-60CE-48BA-A092-C8C3D735E3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6E4584-60CE-48BA-A092-C8C3D735E3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6E4584-60CE-48BA-A092-C8C3D735E3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7063C3F1-8F0E-42C4-98B4-CA235465D645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7063C3F1-8F0E-42C4-98B4-CA235465D645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7063C3F1-8F0E-42C4-98B4-CA235465D645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7063C3F1-8F0E-42C4-98B4-CA235465D645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC1B4B0-6797-4A46-9E9D-5440A9C58F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC1B4B0-6797-4A46-9E9D-5440A9C58F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC1B4B0-6797-4A46-9E9D-5440A9C58F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC1B4B0-6797-4A46-9E9D-5440A9C58F41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B6E4584-60CE-48BA-A092-C8C3D735E3C4} = {50CC78F0-A0B6-4300-9745-FB3A21BB8B8B}
+		{7063C3F1-8F0E-42C4-98B4-CA235465D645} = {5CB886DF-0C94-4C54-9B3A-CD32F9D71687}
+		{AEC1B4B0-6797-4A46-9E9D-5440A9C58F41} = {C3E7CB97-B636-4919-BFF9-715044AEF0BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6802EC01-C678-4AEC-A623-69A78021C71E}
+	EndGlobalSection
+EndGlobal
