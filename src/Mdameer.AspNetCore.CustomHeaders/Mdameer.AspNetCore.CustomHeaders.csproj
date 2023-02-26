@@ -3,6 +3,14 @@
 	<PropertyGroup>
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<Nullable>enable</Nullable>
+		<Description>Specifies custom HTTP headers to be returned in HTTP responses.</Description>
+		<LicenseUrl>https://licenses.nuget.org/MIT</LicenseUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/mdameer/AspNetCore-CustomHeaders</PackageProjectUrl>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/mdameer/AspNetCore-CustomHeaders.git</RepositoryUrl>
+		<VersionPrefix>1.0.0</VersionPrefix>
 	</PropertyGroup>
 
 	<ItemGroup>
